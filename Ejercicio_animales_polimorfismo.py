@@ -1,4 +1,4 @@
-class Animal:
+class Animal():
     tam=0
     color=""
     nombre=""
@@ -52,7 +52,13 @@ print ("su color es "+gato.getColor()+"\n")
 
 perro = Perro(20,"Blanco")
 perro.setNombre("Lacie")
-perro.ladrar
+perro.ladrar()
 print ("Su nombre es "+perro.getNombre())
 print (" mide "+str(perro.getTamano()))
 print ("su color es "+perro.getColor()+"\n")
+
+print(Animal.color)
+# delfin = Animal(10, "azul")
+# delfin.setNombre("delfin")
+# print("El animal es un "+ delfin.nombre)
+# print("El color del " +delfin.nombre +" es "+delfin.color, sep=" ")
