@@ -19,7 +19,7 @@ class Operacion:
         return c;
          
 #Programa Principal
-print "Programa que hace operaciones con dos numeros";
+print ("Programa que hace operaciones con dos numeros");
 op = Operacion();
 a=10;
 b=4;
