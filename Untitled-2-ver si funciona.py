@@ -1,24 +1,26 @@
 #Declaracion de Clases
 class Figura:
     def dibujar(self):
-        print "Dibujar Figura";
- 
+        print ("Dibujar Figura")
     def pintar(self):
-        print "Pintando Figura";
- 
+        print ("Pintando Figura")
 class Cuadrado(Figura): #Heredando de la clase Figura
+
+#importante este ejemplo porque muestra la herencia de metodos
+# al ser cuadrado una clase que hereda de la clase Figura
+
     def dibujar(self):   #Redefiniendo Metodo
-        print "Dibujar Cuadrado";
- 
+        print ("Dibujar Cuadrado")
 class Triangulo(Figura): #Heredando de la clase Figura
     def dibujar(self):   #Redefiniendo Metodo
-        print "Dibujar Triangulo";
- 
- 
+        print ("Dibujar Triangulo")
+
+
 #Programa Principal
-c = Cuadrado();
-c.dibujar();
-c.pintar();
-t = Triangulo();
-t.dibujar();
-t.pintar();
+
+c = Cuadrado()
+c.dibujar()
+c.pintar()
+t = Triangulo()
+t.dibujar()
+t.pintar()
