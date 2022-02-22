@@ -17,8 +17,7 @@ class Triangulo(Figura): #Heredando de la clase Figura
 
 
 #Programa Principal
-
-c = Cuadrado()
+c = Figura()
 c.dibujar()
 c.pintar()
 t = Triangulo()
