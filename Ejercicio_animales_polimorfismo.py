@@ -20,8 +20,8 @@ class Animal():
     def getNombre(self):
         return self.nombre
 
-    def correr(self):
-        print ("El animal corre")
+    #def correr(self):
+    #    print ("El animal corre")
 
 class Gato(Animal):
 
@@ -58,6 +58,8 @@ print (" mide "+str(perro.getTamano()))
 print ("su color es "+perro.getColor()+"\n")
 
 print(Animal.color)
+
+
 # delfin = Animal(10, "azul")
 # delfin.setNombre("delfin")
 # print("El animal es un "+ delfin.nombre)
